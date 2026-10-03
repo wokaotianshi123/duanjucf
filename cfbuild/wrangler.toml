@@ -1,0 +1,12 @@
+# Cloudflare Pages 配置。
+# 本项目是「纯静态前端 + Pages Functions 后端」，无需构建步骤：
+#   - 构建命令：留空（不需要构建）
+#   - 构建输出目录：public
+#   - 根目录：/
+#
+# 在 Cloudflare 控制台创建 Pages 项目并连接 GitHub 仓库后，按上面的值填写即可。
+# 下面这份配置主要供 wrangler CLI 本地预览 / 命令行部署使用。
+
+name = "duanju-web"
+compatibility_date = "2026-10-03"
+pages_build_output_dir = "public"
